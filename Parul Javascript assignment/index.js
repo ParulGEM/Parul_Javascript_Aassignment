@@ -44,5 +44,13 @@
     table.style.backgroundColor="Silver";
     table.style.color="white";
     table.style.margin="auto";
+
+    var a=document.createElement("a");
+    var link=document.createTextNode("Open the link to see the Github repo");
+    a.appendChild(link);
+    a.title = "Open the link to see the Github repo";
+    a.href = "https://github.com/ParulGEM/Parul_Javascript_Aassignment";
+    document.body.appendChild(a);
+    a.style.marginLeft="550px";
     }
 )();
